@@ -1,5 +1,6 @@
 import { Box, Container, Flex, Text } from "@chakra-ui/react";
 import { Link, Outlet } from "react-router-dom";
+import { KeyEntry } from "./components/key-entry";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </Container>
       </Box>
       <Container mt={4}>
+        <KeyEntry />
         <Outlet />
       </Container>
     </>
