@@ -6,7 +6,6 @@ import App from "./App";
 import { ErrorPage } from "./components/error-page";
 import { StoreProvider } from "./components/store-provider";
 import { SubjectList } from "./components/subject-list";
-import { Store } from "./types/store.types";
 
 const router = createBrowserRouter([
   {

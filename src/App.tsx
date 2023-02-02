@@ -6,14 +6,14 @@ function App() {
   return (
     <>
       <Box bg="gray.700">
-        <Container>
+        <Container maxW="container.lg">
           <Flex gap={4} my={4}>
             <Link to={`/`}>Home</Link>
             <Link to={`subjects`}>Subjects</Link>
           </Flex>
         </Container>
       </Box>
-      <Container mt={4}>
+      <Container mt={4} maxW="container.lg">
         <KeyEntry />
         <Outlet />
       </Container>
